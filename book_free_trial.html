@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Free Trial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+
+        .main {
+            background-image: url(Images/login/loginMath.98a2f4c0.png);
+            background-size: cover;
+            width: 1140px;
+            height: 900px;
+        }
+
+        .logo img {
+            width: 250px;
+            margin: 22px 1px 1px 23px;
+        }
+
+
+
+
+
+
+
+/* ............. form ............  */
+        .form-container {
+            max-width: 400px;
+            margin: 132px 20px 40px 502px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .form-container h2 {
+            margin-bottom: 10px;
+        }
+
+        .limited-spots {
+            color: #FF0000;
+            font-weight: bold;
+        }
+
+
+        .form-container input[type="tel"] {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-container input[type="text"] {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .terms {
+            text-align: left;
+            font-size: 12px;
+        }
+
+        .terms input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .book-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .book-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .... Logo...  -->
+    <div class="main">
+        <div class="logo">
+            <a href="">
+                <img src="Images/logo_whjr.png" alt="">
+            </a>
+        </div>
+
+
+
+        <!-- .......... book button ........  -->
+        <div class="form-container">
+            <h2>Book Your Free All Class</h2>
+            <p class="limited-spots">Limited Spots Left!</p>
+            <form action="#" method="post">
+                <input type="text" id="name" placeholder="Enter Your Name:">
+                <label for="name"></label>
+                <input type="tel" name="mobile" placeholder="Mobile Number:" required>
+                <p class="terms">
+                    <input type="checkbox" id="agree" required>
+                    <label for="agree">By clicking the 'Book a Free Trial' button you agree to Whitehat Jr Terms &
+                        Conditions, acknowledge that you have read the Privacy Policy and to receive calls and text
+                        from, or on behalf of, Whitehat Jr at the number you provided, including for marketing purposes
+                        and by autodialer. Email to opt-out. Your consent is not a condition of any purchase.</label>
+                </p>
+                <button type="submit" class="book-button">Book a Free Trial</button>
+            </form>
+        </div>
+</body>
+
+</html>

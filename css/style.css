@@ -1,0 +1,745 @@
+/* ... CSS Reset...  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.0125rem;
+}
+.body{
+  color: #191919;
+
+}
+
+/* ... Header Section ... */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 111;
+  /* border: 1px solid green; */
+  height: 147px;
+  /* background-color: rgb(255, 255, 255); */
+  /* ...shadow...  */
+  background: #fff;
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.06);
+}
+/* ... logo...  */
+.navbar a img {
+  width: 250px;
+  margin: 35px 1px 1px 19px;
+}
+
+.navbar ul li {
+  list-style: none;
+  position: relative;
+  margin: 41px 23px 55px 44px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #5a7184;
+  font-size: 24px;
+  /* margin: 40px 1px 1px 1px; */
+  padding: 40px 16px;
+  /* ...box shadow...  */
+  background: #fff;
+  border: 0;
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.05);
+}
+.navbar ul li a:hover {
+  /* background-color: aqua; */
+}
+
+.navbar ul li ul {
+  position: absolute;
+  display: none;
+  /* background-color: #2a375e; */
+  color: rgb(20, 41, 59);
+  border-radius: 10px;
+  width: 251px;
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  margin-top: 40px;
+
+}
+#curriculum-inside_ul{
+  width: 273px;
+}
+#curriculum-inside_ul li a{
+  margin: 0px 0px;
+}
+#curriculum-inside_ul li a:hover{
+  color: #ff8d1a;
+}
+
+#course-inside_ul{
+  width: 227px;
+}
+#course-inside_ul li a{
+  margin: 0px 20px;
+}
+#course-inside_ul li a:hover{
+  color: #ff8d1a;
+}
+.navbar ul li:hover ul {
+  display: block;
+}
+
+.navbar ul li ul li {
+  line-height: 2;
+  width: 243px;
+  border-radius: 5px;
+  padding: 1px 1px 1px 1px;
+  margin: 2px 1px 1px 1px;
+}
+.navbar ul li ul li a {
+  padding: 1px 1px 1px 1px;
+  font-size: 17px;
+}
+.navbar ul li ul li a:hover {
+  /* background-color: aqua; */
+}
+
+/* ...Join class button...  */
+.right_side {
+  /* border: 1px solid gray;  */
+  margin: 6px -35px 1px -69px;
+}
+.right_side span {
+  margin: 101px 5px 15px -209px;
+  color: #ff8d1a;
+}
+.join_class {
+  border: 3px solid #ff8d1a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 1px 1px 1px 1px; */
+  margin: 47px 1px 48px 74px;
+  padding: 2px 2px 2px 2px;
+  /* background-color: #5a7184; */
+  width: 250px;
+}
+.join_class a {
+  font-size: 23px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ff8d1a;
+}
+
+/* ....Free Trial Button...  */
+.free_trial {
+  border: 3px solid #ff8d1a;
+  /* border-radius: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 47px 1px 48px 120px;
+  padding: 2px 2px 2px 2px;
+  background-color: #ff8d1a;
+  width: 250px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.free_trial:hover{
+  background-color: #0056b3;
+            transform: scale(1.1);
+}
+.free_trial a {
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+}
+
+/* ..... Body ....  */
+
+/* ....Booking Heading....  */
+.book-heading {
+  font-size: 54px;
+  line-height: 64px;
+  margin-bottom: 20px;
+  margin: 21px 2px 2px 39px;
+  word-spacing: 10px;
+}
+.grade-sidebar {
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 28px 1280px 1px 1px;
+}
+.grade-sidebar h2 {
+  margin: 36px 1px 1px 140px;
+  font-size: 24px;
+}
+#kid-span {
+  margin: 12px 1px 1px 203px;
+  color: #191919;
+  font-size: 24px;
+}
+#select-span {
+  margin: 13px 1px 1px 86px;
+  font-size: 20px;
+}
+/* ... grade table...  */
+.grade-table {
+  border: 1px solid #130e0e;
+  margin: 1px 1212px 1px 1px;
+}
+.grade-table input {
+}
+
+/* ..... Right banner image to the sidebar....  */
+.right-banner {
+  margin: -238px 1px 1px 723px;
+  /* height: 200px;
+    width: 200px; */
+}
+.right-banner img {
+  width: 750px;
+}
+
+/* .... teacher banner iframe tag .....  */
+.teacher-bar {
+  /* margin: 1px 1px 1px 1px;
+    height: 200px;
+    width: 200px; */
+}
+
+.teacher-bar_div {
+  margin: 51px 2px 3px 234px;
+  /* ...shadow...  */
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.05);
+}
+/* ...... teacher content to the right side  ....  */
+.teacher-content {
+  /* border: 1px solid grey; */
+  box-shadow: 0 17px 39px rgba(0, 0, 0, 0.1);
+  margin: 50px 213px 1px 1px;
+}
+.teacher-content h2 {
+  font-size: 38px;
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+}
+.teacher-content p {
+  font-size: 26px;
+  margin: 26px 1px 1px 7px;
+}
+.teacher-content h3 {
+  margin: 17px 1px 1px 21px;
+  font-size: 18px;
+}
+.teacher-book_btn {
+  margin: 28px 3px 9px 186px;
+}
+
+/* ..... Courses section below the teacher banner and content....  */
+.our-courses {
+  background-image: url(../Images/musicbanner1x.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 1px 90px 1px;
+  /* margin-bottom: 90px; */
+}
+.courses-heading h2 {
+  font-size: 40px;
+  font-weight: 1000;
+  color: #5843be;
+}
+.courses-box {
+  margin: 10px 5px;
+  background-image: url(../Images/musicbanner1x.png);
+  /* opacity: .3; */
+  margin: 1px 1px 1px 1px;
+  background-color: white;
+  opacity: 0.9;
+  /* align-items: ; */
+  width: 100%;
+}
+.common-card {
+  /* position: relative; */
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  width: 264px;
+  height: 355px;
+  margin: 30px 50px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  border-radius: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+.common-card:hover {
+  cursor: pointer;
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+
+.common-card img {
+  vertical-align: middle;
+}
+.grade-div {
+  margin: 15px 20px;
+  padding: 2px 5px;
+  font-size: 1.6em;
+  line-height: 2rem;
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+.grade-1 {
+  background: #fff4e8;
+  color: #ff8d1a;
+}
+.card-1 {
+  /* margin: ; */
+  background-image: url(../Images/courses_banner/card1-banner.png);
+}
+.card-2 {
+  background-image: url(../Images/courses_banner/);
+}
+.card-3 {
+  background-image: url(../Images/courses_banner/);
+}
+.card-4 {
+  background-image: url(../Images/);
+}
+.card-5 {
+  background-image: url(../Images/);
+}
+.card-btn {
+  margin: 39px 1px 2px 3px;
+}
+.card-btn a {
+  font-size: 20px;
+}
+
+/* ...... Minecraft Banner.....  */
+.minecraft-banner {
+  background-image: url(../Images/minecraft-banner-desktop.png);
+  /* border: 1px solid red; */
+
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 341px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 90px;
+  position: relative;
+}
+.minecrafe-btn {
+  position: absolute;
+  left: 678px;
+  top: 166px;
+}
+
+/* ....Your child will learn ...  */
+.child-learn-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin: 2px 200px;
+}
+.child-heading {
+  margin-top: 40px;
+}
+.child-heading h2 {
+  font-size: 2.3rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #130e0e;
+}
+.coding-learn-content {
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+  padding: 32px;
+}
+.learn-content_box {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0px 30px;
+}
+.learn-content_box img {
+  height: 150px;
+  width: 150px;
+}
+
+/* ....... Saira Section ........  */
+
+.saira-section {
+  height: 38rem;
+  background-image: url(../Images/saira-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 2% 1.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 50px;
+}
+.saira-video-pop {
+  color: #fff;
+}
+section .float-right {
+  position: absolute;
+  right: 137px;
+  top: 150px;
+}
+.float-right h2 {
+  margin: 29px 0px;
+  color: #fff;
+}
+.book-saira_button {
+  margin: 88px 4px 5px 5px;
+}
+
+
+
+/* ....... 5.5 Million Student Projects.........  */
+.student-projects {
+  /* background-color: red; */
+  /* border: 1px solid red; */
+  margin-top: 70px;
+  /* height: 90%; */
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.project-container {
+  /* background-color: rgb(247, 140, 140); */
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0px;
+  margin-top: 20px;
+}
+.pro-heading {
+  font-size: 38px;
+  margin-top: 35px;
+}
+.pro-heading span {
+  color: #fe8d1b;
+}
+/* .... projects-bundle..  */
+
+.project-bundle {
+  margin-bottom: 60px;
+  margin-top: 60px;
+  height: 40%;
+  display: flex;
+}
+.pro-card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin: 0px 10px;
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+.pro-card:hover{
+  /* transform: scale(1.1); */
+
+}
+.card-back {
+  width: 360px;
+  height: 230px;
+  /* border-radius: 32px 32px 0px 0px */
+}
+.avatar {
+  height: 152px;
+  width: 154px;
+  position: relative;
+  top: -55px;
+  right: -190px;
+}
+
+.pro-card p {
+  color: #36b37e;
+  font-size: 1.1rem;
+  line-height: 1.125rem;
+  font-weight: 700;
+  margin: 6px 29px;
+  position: relative;
+  top: -135px;
+}
+.pro-card h4 {
+  margin-bottom: 7px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  color: #183b56;
+  margin: 2px 26px;
+  font-size: 25px;
+  position: relative;
+  top: -108px;
+}
+.pro-card h6 {
+  font-size: 1.125rem;
+  margin: 27px 27px;
+  position: relative;
+  top: -93px;
+}
+
+
+/* ..... Expert Section educators .....  */
+.expert-section {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  /* align-items: center;
+  justify-content: center; */
+  margin: 18px 40px 18px 40px;
+}
+.expert-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 47px 1px -63px 1px;
+  /* border: 2px solid grey; */
+}
+.expert-heading h2{
+  color: #130e0e;
+}
+.expert-content {
+  display: flex;
+  /* border: 5px solid pink; */
+
+}
+.expert-image{
+  margin: 101px 2px 2px 134px;
+  /* border: 3px solid rgb(0, 255, 0); */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+.expert-image img{
+    width: 472px;
+    height: 279px;
+}
+
+/* .... expert data to right ...  */
+.expert-data-right{
+  color: #130e0e;
+  /* border: 5px solid rgb(218, 218, 25); */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 101px;
+  /* margin: 0px 2px 2px -110px; */
+}
+.expert-data-right h2{
+
+    /* border: 1px solid red; */
+    color: black;
+    /* margin: 101px -11px 2px -511px; */
+    font-size: 28px;
+    line-height: 32px;
+    padding: 0px 21px;
+
+}
+.expert-data-right p{
+    /* order: 2px solid black; */
+    margin: 28px -1px 2px 2px;
+    padding: 0px 21px;
+    line-height: 32px;
+}
+.expert-button{
+  margin: 14px 4px 3px 180px;
+}
+
+/* ...... IIt  and ib trained curriculum Creators....  */
+.creator-section{
+  margin: 71px 2px 2px 2px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  height: 469px;
+
+
+}
+.creator-section h4{
+  text-align: center;
+    font-size: 34px;
+    position: relative;
+    top: 26px;
+}
+.creator-content{
+  display: flex;
+  margin: 82px 122px 8px 170px;
+  justify-content: space-evenly;
+}
+
+.creator-block{
+  display: flex;
+  flex-direction: column;
+}
+.creator-block h3  {
+  margin: 13px 2px 2px 29px;
+  font-size: 1.125rem;
+}
+.creator-block span {
+  margin: 13px 2px 2px 29px;
+  font-size: 1.125rem;
+}
+
+.creator-img img{
+  width: 228px;
+  height: 228px;
+}
+
+/* ......... top coding learining platform footer banner and button .....  */
+.footer-banner{
+  background: #fff4e8;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  margin-top: 46px;
+}
+.footer-banner h2{
+  color: #130e0e;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 13px 136px 2px 190px;
+}
+.foot-banner_btn{
+  margin: 13px 2px 2px 8px;
+}
+
+
+/* ..... footer botom last, the end .... */
+.footer-container{
+  flex-direction: column;
+}
+.foot-logo{
+  margin: 41px 2px 3px 194px;
+
+}
+/* .........footer-first-seperate-content......  */
+.footer-first-seperate{
+  display: flex;
+  
+
+}
+.footer-first-seperate p{
+  /* border: 1px solid grey; */
+  margin: 11px 886px 45px 196px;
+  text-align: justify;
+  font-size: 1.125rem;
+  color: #5a7184;
+  letter-spacing: .2px;
+  line-height: 36px;
+  color: #5a7184;
+
+}
+.imp-links{
+  margin: 2px 2px 2px 2px;
+  /* border: 1px solid yellow; */
+  position: relative;
+  left: -722px;
+}
+.imp-links h4{
+  margin: 12px -50px;
+  font-size: 1.5rem;
+    line-height: 2rem;
+
+}
+.imp-links li{
+  margin: 12px -50px;
+  list-style: none;
+}
+.imp-links a{
+  text-decoration: none;
+  color: #5a7184;
+
+}
+.imp-links li:hover,.imp-links a:hover{
+  text-decoration: underline;
+}
+.more-links{
+  margin: 2px 2px 2px 2px;
+  /* border: 1px solid red; */
+  position: relative;
+  left:-409px ;
+}
+
+/* ........... footer copyright section......  */
+.copyright{
+    /* border: 1px solid grey; */
+    /* height: 20%; */
+    /* width: 200px; */
+    /* background-color: red; */
+
+}
+.copyright h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  color: #5a7184;
+  letter-spacing: .2px;
+  text-align: justify;
+  line-height: 36px;
+}
+
+
+/* .......... problem_solve.....  */
+.problem_solve{
+  width: 30%;
+  display: flex;
+  background-color: red;
+  position: absolute;
+  top: 422px;
+  left: 38px;
+}
+.problem_solve iframe{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ... Utility Classes For Reuse ...  */
+.flex {
+  display: flex;
+}
+.hidden{
+  display: none;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  color: #fff;
+}
+
+/* .btn-transition{
+    animation: f 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%),#ff8d1a;
+    color: white;
+} */
+.line{
+  margin: 10px 40px;
+}
